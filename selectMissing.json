@@ -1,0 +1,36 @@
+[
+    {
+        "options": [
+            "wrong",
+            "true",
+            "worthy",
+            "changing"
+        ],
+        "answer": [
+            "true"
+        ]
+    },
+    {
+        "options": [
+            "medicines",
+            "treatments",
+            "reactions",
+            "actions",
+            "disorders"
+        ],
+        "answer": [
+            "disorders"
+        ]
+    },
+    {
+        "options": [
+            "unchanged",
+            "narrowing",
+            "disapearing",
+            "widening"
+        ],
+        "answer": [
+            "widening"
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "paragraph": "B-15 broke off from the Ross Ice Shelf in Antarctica. It was the largest iceberg ever documented, with a surface area of more than 4,200 square miles—more than twice the size of the state of Delaware. After it started breaking up, the largest of its pieces, B-15a, drifted along the coast of Antarctica, lingered on a shallow seamount, and collided with an ice tongue, before running aground and breaking again. Late in 2007, the largest remaining chunk floated out into the South Pacific where, in the warmer water, it began to disintegrate. For the whole of the next year, the ocean was noisier than usual. All the way up past the equator, 4,350 miles or so away from where B-15a broke apart, hydrophones that scientists from the National Oceanic and Atmospheric Administration (NOAA) had suspended underwater were picking up strange signals. Another set of hydrophones, this one in the Juan Fernández Islands, off the coast of Chile, picked up the noise, too, even louder. When the scientists used the two sets of data to determine the source of the noise, they found the most likely culprits: B-15a and C-19a, another giant iceberg. Twenty years ago, not so long before B-15 broke off from Antarctica, “we didn’t even know that icebergs made noise,” says Haru Matsumoto, an ocean engineer at NOAA who has studied these sounds. But in the past few years, scientists have started to learn to distinguish the eerie, haunting sounds of iceberg life—ice cracking, icebergs grinding against each other, an iceberg grounding on the seafloor—and measure the extent to which those sounds contribute to the noise of the ocean. While they’re just now learning to listen, the sounds of ice could help them understand the behavior and breakup of icebergs and ice shelves as the poles warm up.",
+        "question": "Where did the largest piece off from B-15 eventually go?",
+        "options": [
+            "Seafloor",
+            "Antarctica",
+            "Chile",
+            "South Pacific Answer:"
+        ],
+        "answer": [
+            "Antarctica"
+        ]
+    },
+    {
+        "paragraph": "Social scientists use particular methods to gather qualitative evidence, from observation to interview, but they also use autobiographical accounts, journalism, and other documentary material to flesh out and add meaning to statistics. As with reading numbers, reading textual evidence requires us to practice, to set time aside to learn how to do it, and to understand the conventions of writing which operate in the different forms of writing we encounter. One of the main problems with reading textual evidence, though, is that, unlike the relationship most of us have with numbers where we may use them at a pretty basic level, most of us are, if anything, over-familiar with words. When we want to understand their value as social science evidence we need to forget how familiar we are with first person accounts and everyday speech - for example, in newspapers, magazines, and books - and learn a different approach to them. Social scientists use observation, interviews and even print journalism as evidence for the claims they make. They may collect evidence through questionnaires with pre-set questions and by open-ended interviews which allow respondents to speak for themselves. They may observe social relations explicitly as social scientists or may participate themselves in a particular community to gain 'inside' information. Social scientists also draw on print journalism on occasion and may use the same sources, for example official statistics, and the work of other social scientists to support their claims. We need to remember, though, that journalists do not need to present the same rigorous referencing and support for their claims as social scientists are required to do. Most importantly, newspaper and magazine articles are written under commercial pressures; for example they must help to sell the newspaper by being deliberately provocative, or by reflecting the dominant views of its readers.",
+        "question": "According to this passage, what do social scientists use written sources to do?",
+        "options": [
+            "Formulating questionnaires and interview questions.",
+            "Advising them on how to collect qualitative evidence.",
+            "Adding information to other data they have collected.",
+            "Change their understanding of numbers. Answer:"
+        ],
+        "answer": [
+            "Adding information to other data they have collected."
+        ]
+    },
+    {
+        "paragraph": "When he was awarded an Honorary Degree by the University of Newcastle, even John Robertson himself must surely have looked back in wonder at his astonishing rise to success. The year was 1910, and those assembled were to hear not only of his generosity to the University, which enabled it to contribute to the pioneering research into tropical diseases being carried out at that time, but also of his humanitarian work in southern Africa, where he was ahead of his time in improving the working conditions of local mine workers. To those who knew John in his youth, it will have come as no surprise to hear of his success. He was now enjoying the rewards of the fierce determination, desire to succeed and extraordinary ability to acquire knowledge, which they had noticed in the young man.",
+        "question": "What does the reader of this text learn about John Robertson?",
+        "options": [
+            "He was born in Africa.",
+            "His abilities were evident at a young age.",
+            "He studied medicine.",
+            "He completed his degree in 1910. Answer:"
+        ],
+        "answer": [
+            "His abilities were evident at a young age."
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "question": "Which of the following does the passage tell us about decision making?",
+        "options": ["The brain is designed to enable quick decision making.","Quick decision making can be improved.","Quick decision making routinely leads to error.","To make correct decisions we require all relevant information.","Thinking things through thoroughly will lead to greater success."],
+        "answer": ["The brain is designed to enable quick decision making.","Quick decision making can be improved."]
+    },
+    {
+        "question": "What is the capital of capital?",
+        "options": ["Paris", "Berlin", "London"],
+        "answer": ["Paris", "Berlin"]
+    }
+    
+]

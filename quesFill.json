@@ -1,0 +1,23 @@
+[
+  {
+    "text": "Please listen to the audio carefully and choose the correct option.1",
+    "audio": "audio1.mp3",
+    "blanks": ["blank1", "blank2", "blank3"],
+    "options": [["option1a", "option1b"], ["option2a", "option2b"], ["option3a", "option3b"]],
+    "answers": ["option1b", "option2a", "option3b"]
+  },
+  {
+    "text": "Please listen to the audio carefully and choose the correct option.2",
+    "audio": "audio2.mp3",
+    "blanks": ["blank1", "blank2"],
+    "options": [["option1a", "option1b"], ["option2a", "option2b"]],
+    "answers": ["option1a", "option2b"]
+  },
+  {
+    "text": "My name is __1__. Your Name is __2__.",
+    "audio": "audio3.mp3",
+    "blanks": ["blank1", "blank2"],
+    "options": [["Ankur", "Danish"], ["Danish", "Ankur"]],
+    "answers": ["Danish", "Ankur"]
+  }
+]

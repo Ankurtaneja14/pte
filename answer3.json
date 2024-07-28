@@ -1,0 +1,13 @@
+{
+    "questions": [
+      "What is the capital of France?",
+      "Which planet is known as the Red Planet?",
+      "Who wrote the play 'Romeo and Juliet'?"
+    ],
+    "answers": [
+      ["Paris", "Rome", "Madrid", "London"],
+      ["Mars", "Jupiter", "Venus", "Saturn"],
+      ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"]
+    ]
+  }
+  
