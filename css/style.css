@@ -1,0 +1,387 @@
+/* Custom color variables */
+:root {
+    --primary-color: #007bff; /* Blue color */
+    --secondary-color: #f8f9fa; /* White color */
+    --gray-color: #6c757d; /* Grey color */
+  }
+  
+  /* Override Bootstrap default colors */
+  body {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar .navbar-brand {
+    color: var(--secondary-color);
+  }
+  
+  .navbar .nav-link {
+    color: var(--secondary-color);
+  }
+  
+  /* Hero section styling */
+  .hero-section {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  /* Features section styling */
+  .features-section {
+    background-color: var(--secondary-color);
+  }
+  
+  .features-section h2 {
+    color: var(--primary-color);
+  }
+  
+  .features-section .fa {
+    color: var(--primary-color);
+  }
+  
+  /* Call to Action section styling */:root {
+  --primary-color: #3841E6;
+  --text: #EDF0F7;
+  --sidebar-gray: #111926;
+  --sidebar-gray-light: #F8F7FD;
+  --sidebar-gray-background: #6067EB;
+  --success: #00C896;
+}
+
+html {
+  font-family: Poppins, sans-serif;
+}
+body{
+background-color: #b4cbff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--primary-color);
+  width: 17vw;
+  padding: .4% 1.2%;
+  display: block;
+  color: white;
+  flex-direction: column;
+  transition: width 0.5s linear;
+}
+
+body.collapsed nav {
+  width: 6vw;
+}
+
+body.collapsed .hide {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+}
+
+/*? sidebar top */
+.sidebar-top {
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 4%;
+  padding: 10% 0%;
+}
+
+body.collapsed .sidebar-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo__wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  width: 4vw;
+  height: 4vw;
+  background-color: var(--sidebar-gray-background);
+  border-radius: 20%;
+}
+
+.expand-btn {
+  top: 1vw;
+  right: -5vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: #6067EB50 0px 2px 8px 0px;
+}
+
+.expand-btn img {
+  transform: rotate(180deg);
+  stroke: var(--primary-color);
+  width: 3vw;
+  height: 3vw;
+}
+
+
+body.collapsed .expand-btn img {
+  transform: rotate(360deg);
+}
+
+.sidebar-links {
+  padding: .8vw 0vw;
+  border-top: 1px solid var(--sidebar-gray-background);
+}
+
+/*? menu links */
+.sidebar-links ul {
+  list-style-type: none;
+  position: relative;
+}
+
+.sidebar-links li {
+  position: relative;
+}
+
+.sidebar-links li a {
+  padding: 1.2vw 1vw;
+  margin: .8vw 0px;
+  color: var(--sidebar-gray-light);
+  font-size: 1.25vw;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 1vw;
+  height: 3vw;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar-links li a img {
+  height: 2vw;
+  width: 2vw;
+}
+
+
+.sidebar-links .link {
+  margin-left: 1.5vw;
+}
+
+.sidebar-links li a:hover,
+.sidebar-links li a:focus,
+.sidebar-links .active {
+  width: 100%;
+  text-decoration: none;
+  background-color: var(--sidebar-gray-background);
+  border-radius: 10px;
+  outline: none;
+  color: var(--sidebar-gray-light);
+}
+
+.sidebar-links .active {
+  color: white;
+}
+
+/*? bottom sidebar */
+
+.sidebar-bottom {
+  padding: 8px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+/*? account part */
+.sidebar__profile {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  flex-direction: row;
+  padding: 2vw .2vw;
+  border-top: 1px solid var(--sidebar-gray-background);
+}
+
+.avatar__wrapper {
+  position: relative;
+  display: flex;
+}
+
+.avatar {
+  display: block;
+  width: 4vw;
+  height: 4vw;
+  cursor: pointer;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.avatar__name {
+  display: flex;
+  flex-direction: column;
+  gap: .2vw;
+}
+
+#username {
+  font-size: 0.95vw;
+  font-weight: 800;
+  text-align: left;
+}
+
+.online__status {
+  position: absolute;
+  width: .8vw;
+  height: .8vw;
+  border-radius: 50%;
+  background-color: var(--success);
+  bottom: .2vw;
+  right: .2vw;
+}
+.sidebar-top a h1{
+  font-size: 2vw;
+}
+/* * Tooltip */
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltip__content {
+  visibility: hidden;
+  background-color: var(--sidebar-gray-background);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 12px;
+  position: absolute;
+  z-index: 1;
+  top: -4;
+  left: 75px;
+  width: 174;
+}
+
+body.collapsed .tooltip:hover .tooltip__content,
+body.collapsed .tooltip:focus .tooltip__content {
+  visibility: visible;
+}
+
+/* Modify the CSS for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--sidebar-gray-background);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 47;
+  /* Position the dropdown below the parent item */
+  top: 42;
+  /* Align the dropdown below the parent item */
+}
+
+/* Rest of the CSS remains the same as the previous response */
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: var(--sidebar-gray-light);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Change the link color on hover */
+.dropdown-content a:hover {
+  background-color: var(--sidebar-gray-background);
+  color: white;
+}
+
+/* Show the dropdown content when the parent item is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Existing CSS code remains the same */
+
+/* Add a new CSS class for the user dropdown */
+.user-dropdown {
+cursor: pointer;
+position: relative;
+}
+
+.user-dropdown::after {
+content: ""; /* Add a down arrow next to the username */
+margin-left: 4px;
+font-size: 1rem;
+}
+
+.user-dropdown-content {
+position: absolute;
+top: 19px; /* Position the dropdown below the username */
+right: -91px; /* Position the dropdown to the right of the username */
+min-width: 160px;
+background-color: var(--sidebar-gray-background);
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1;
+display: none;
+flex-direction: column; /* Display options vertically */
+}
+
+.user-dropdown-menu {
+padding: 12px 16px;
+text-decoration: none;
+display: flex;
+align-items: center;
+color: var(--sidebar-gray-light);
+transition: all 0.2s ease-in-out;
+}
+
+/* Change the link color on hover */
+.user-dropdown-menu:hover {
+background-color: var(--sidebar-gray-background);
+color: white;
+}
+
+/* Show the dropdown content when the username is clicked */
+.user-dropdown:hover .user-dropdown-content {
+display: flex;
+}
+.activate{
+display: flex;
+}
+/* Main */
+main{
+margin: 5%;
+margin-left: 25%;
+margin-top: 1%;
+transition: margin 0.5s linear;
+}
+body.collapsed main{
+margin-left: 10%;
+transition: margin 0.5s linear;
+}

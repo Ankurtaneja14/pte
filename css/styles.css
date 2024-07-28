@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.sidebar {
+    position: absolute;
+    top: 59px;
+    right: 0px;
+    width: 250px;
+    height: 100%;
+    color: rgb(152, 162, 170);
+    background-color: rgb(233, 245, 255);
+    transition: right 0.3s;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 50px 0;
+}
+
+.sidebar-menu li {
+    padding: 10px;
+}
+
+.content {
+    margin-right: 280px;
+    padding: 20px;
+}
+#aiScore{
+    display: none;
+}
